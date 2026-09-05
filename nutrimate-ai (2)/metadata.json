@@ -1,0 +1,6 @@
+{
+  "name": "NutriMate AI",
+  "description": "Smart Nutrition Scanner, Meal Tracking, Grocery List & Healthy Habits in Telugu & English",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

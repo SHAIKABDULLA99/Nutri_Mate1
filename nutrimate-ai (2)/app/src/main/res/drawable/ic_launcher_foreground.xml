@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group centered strictly within 66dp safe zone (bounds ~26 to 82) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- 1. Bottom Green Cradle Swoosh -->
+        <path
+            android:pathData="M39,59 C47,62 61,59 69,45 C67,52 57,63 43,63 C39,63 36,61 39,59 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="37"
+                    android:startY="61"
+                    android:endX="69"
+                    android:endY="45"
+                    android:startColor="#2E7D32"
+                    android:centerColor="#4CAF50"
+                    android:endColor="#81C784"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- 2. Left Main Glossy Green Leaf Body -->
+        <path
+            android:pathData="M37,28 C28,34 29,48 44,56 C38,48 36,38 37,28 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="27"
+                    android:startY="32"
+                    android:endX="44"
+                    android:endY="56"
+                    android:startColor="#66BB6A"
+                    android:centerColor="#43A047"
+                    android:endColor="#1B5E20"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- Left Leaf Right Inner Flap -->
+        <path
+            android:pathData="M37,28 C39,37 42,47 44,56 C48,49 47,38 37,28 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="37"
+                    android:startY="28"
+                    android:endX="48"
+                    android:endY="52"
+                    android:startColor="#A5D6A7"
+                    android:centerColor="#4CAF50"
+                    android:endColor="#2E7D32"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- Leaf Spine Highlight -->
+        <path
+            android:pathData="M37,28 C39,38 42,47 44,56"
+            android:strokeColor="#E8F5E9"
+            android:strokeWidth="1.0"
+            android:strokeLineCap="round" />
+
+        <!-- 3. Top-Left Green Arch Loop -->
+        <path
+            android:pathData="M39,37 C40,30 46,29 52,34 C50,35 44,32 40,38 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="39"
+                    android:startY="29"
+                    android:endX="52"
+                    android:endY="34"
+                    android:startColor="#66BB6A"
+                    android:endColor="#2E7D32"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- 4. Orange Human Head Sphere (Top Right) -->
+        <!-- Glow Base -->
+        <path
+            android:pathData="M60,25m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="57"
+                    android:startY="22"
+                    android:endX="63"
+                    android:endY="28"
+                    android:startColor="#FFE082"
+                    android:centerColor="#FFA726"
+                    android:endColor="#E65100"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+        
+        <!-- Head Specular Highlight -->
+        <path
+            android:fillColor="#80FFFFFF"
+            android:pathData="M58.5,23.5m-1.2,0a1.2,1.2 0,1 1,2.4 0a1.2,1.2 0,1 1,-2.4 0" />
+
+        <!-- 5. Orange Body & Heart Ribbon Loop -->
+        <path
+            android:pathData="M59,30 C66,31 69,37 66,46 C64,51 57,53 49,53 L49,47 C54,46 59,45 61,39 C62,35 58,33 52,37 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="59"
+                    android:startY="30"
+                    android:endX="49"
+                    android:endY="53"
+                    android:startColor="#FFB74D"
+                    android:centerColor="#FF9800"
+                    android:endColor="#E65100"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- Inner Heart Orange Curve -->
+        <path
+            android:pathData="M52,37 C49,40 50,47 58,46 C59,50 53,53 49,53 L49,47 C52,45 54,40 52,37 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="52"
+                    android:startY="37"
+                    android:endX="49"
+                    android:endY="53"
+                    android:startColor="#FFA726"
+                    android:endColor="#E65100"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+
+        <!-- Center Orange Heart Accent -->
+        <path
+            android:pathData="M42,39 C44,37 47,37 47,40 L45,41 Z"
+            android:fillColor="#FF9800" />
+
+        <!-- 6. Bottom "Nutri MATE" Brand Text -->
+        <!-- 'N' -->
+        <path
+            android:pathData="M37,70 L39.2,70 L42.8,75.2 L42.8,70 L44.8,70 L44.8,78 L42.6,78 L39,72.8 L39,78 L37,78 Z"
+            android:fillColor="#0D532B" />
+
+        <!-- 'u' -->
+        <path
+            android:pathData="M46.5,72.5 L48.3,72.5 L48.3,76 C48.3,76.8 48.8,77.1 49.6,77.1 C50.4,77.1 51,76.7 51,76 L51,72.5 L52.8,72.5 L52.8,76 C52.8,77.5 51.6,78.2 49.6,78.2 C47.6,78.2 46.5,77.4 46.5,76 Z"
+            android:fillColor="#0D532B" />
+
+        <!-- 't' -->
+        <path
+            android:pathData="M54.5,71 L56.2,71 L56.2,72.5 L57.8,72.5 L57.8,73.8 L56.2,73.8 L56.2,76.5 C56.2,76.9 56.4,77.1 56.8,77.1 L57.8,77.1 L57.8,78.1 L56.4,78.1 C55,78.1 54.5,77.4 54.5,76.4 Z"
+            android:fillColor="#0D532B" />
+
+        <!-- 'r' -->
+        <path
+            android:pathData="M59.2,72.5 L61,72.5 L61,73.6 C61.4,72.8 62.2,72.4 63.2,72.5 L63.2,74.2 C62,74.1 61,74.7 61,75.8 L61,78 L59.2,78 Z"
+            android:fillColor="#0D532B" />
+
+        <!-- 'i' -->
+        <path
+            android:pathData="M64.6,70.5m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0 M63.8,72.5 L65.5,72.5 L65.5,78 L63.8,78 Z"
+            android:fillColor="#0D532B" />
+
+        <!-- 'MATE' Line -->
+        <!-- 'M' -->
+        <path
+            android:pathData="M39.5,80.5 L41.2,80.5 L42.5,83.2 L43.8,80.5 L45.5,80.5 L45.5,85.5 L44.2,85.5 L44.2,82.4 L43,84.8 L42,84.8 L40.8,82.4 L40.8,85.5 L39.5,85.5 Z"
+            android:fillColor="#004D40" />
+
+        <!-- 'A' -->
+        <path
+            android:pathData="M47.2,80.5 L49,80.5 L50.8,85.5 L49.3,85.5 L48.9,84.4 L47.3,84.4 L46.9,85.5 L45.4,85.5 Z M47.6,83.4 L48.6,83.4 L48.1,81.8 Z"
+            android:fillColor="#004D40" />
+
+        <!-- 'T' -->
+        <path
+            android:pathData="M51.5,80.5 L55.5,80.5 L55.5,81.6 L54.2,81.6 L54.2,85.5 L52.8,85.5 L52.8,81.6 L51.5,81.6 Z"
+            android:fillColor="#004D40" />
+
+        <!-- 'E' -->
+        <path
+            android:pathData="M56.8,80.5 L60.5,80.5 L60.5,81.6 L58.2,81.6 L58.2,82.4 L60.2,82.4 L60.2,83.5 L58.2,83.5 L58.2,84.4 L60.5,84.4 L60.5,85.5 L56.8,85.5 Z"
+            android:fillColor="#004D40" />
+    </group>
+</vector>

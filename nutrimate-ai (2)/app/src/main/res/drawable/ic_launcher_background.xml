@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Clean Mint to Soft Cyan Radial/Linear Gradient Backdrop -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="135"
+                android:startColor="#F2FCF7"
+                android:centerColor="#E3F8F5"
+                android:endColor="#CEF2FA"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle White Center Radial Glow -->
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+</vector>
